@@ -19,20 +19,14 @@ To install Swift on your system, follow the official [Swift.org guide](https://s
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/yourusername/SwiftApp.git
-    cd DummySwiftProcess
+    git clone git@github.com:Maxim-Lanskoy/DummySwiftProcess.git DummyProcess
+    cd DummyProcess
     ```
 
-2. **Build the project**:
+2. **Run the application**:
 
     ```bash
-    swift build
-    ```
-
-3. **Run the application**:
-
-    ```bash
-    swift start DummyProcess
+    swift run
     ```
 
 You will see output like this:
@@ -41,15 +35,15 @@ You will see output like this:
 - [YYYY-MM-DD HH:MM] SwiftApp is running... (every 10 seconds) 
 - [YYYY-MM-DD HH:MM] SwiftApp is running... (every 10 seconds)
 
-## Running SwiftApp with SRM
+## Running DummyProcess with SRM
 
-#### If you are using **SRM** (Swift Running Manager), you can manage DummyProcess like this:
+#### If you are using **SRM** (Swift Running Manager), you can run DummyProcess like this:
 
 ```bash
 srm start /path/to/DummyProcess --name DummyProcess
 ```
 
-#### You can stop the process with:
+#### You can later stop the process with:
 
 ```bash
 srm stop DummyProcess
