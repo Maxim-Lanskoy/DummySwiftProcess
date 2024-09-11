@@ -40,7 +40,7 @@ You will see output like this:
 #### If you are using **SRM** (Swift Running Manager), you can run DummyProcess like this:
 
 ```bash
-srm start /path/to/DummyProcess --name DummyProcess
+srm start .build/debug/dummy-process --name DummyProcess
 ```
 
 #### You can later stop the process with:
