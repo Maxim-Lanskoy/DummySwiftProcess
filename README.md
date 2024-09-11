@@ -31,9 +31,9 @@ To install Swift on your system, follow the official [Swift.org guide](https://s
 
 You will see output like this:
 
-- Starting SwiftApp... 
-- [YYYY-MM-DD HH:MM] SwiftApp is running... (every 10 seconds) 
-- [YYYY-MM-DD HH:MM] SwiftApp is running... (every 10 seconds)
+- Starting dummy Swift process... 
+- [YYYY-MM-DD HH:MM] Swift is running... (every 10 seconds) 
+- [YYYY-MM-DD HH:MM] Swift is running... (every 10 seconds)
 
 ## Running DummyProcess with SRM
 
